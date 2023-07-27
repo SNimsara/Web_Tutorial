@@ -1,0 +1,148 @@
+<!-- First Form -->
+<html>
+    <head>
+        <title>HTML FORMS</title>
+        <style>
+            form 
+            {
+                border: 1px solid blue;
+                width: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <h1>Registration Form</h1>
+            <table>
+                <tr>
+                    <td>First Name </td>
+                    <td><input type="text" name="firstname"></td>
+                </tr>
+                
+                <tr>
+                    <td>Last Name </td>
+                    <td><input type="text" name="lastname"></td>
+                </tr>
+                
+                <tr>
+                    <td>Mobile Number </td>
+                    <td><input type="text" name="number"></td>
+                </tr>
+                
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" name="gen">Male
+                        <input type="radio" name="gen">Female
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                
+                <tr>
+                    <td>Favourite Music</td>
+                    <td><input type="checkbox" name="music">POP
+                        <input type="checkbox" name="music">Rock
+                        <input type="checkbox" name="music">Other
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Additional Details</td>
+                    <td><textarea name="details" rows="4" columns="5"></textarea></td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2"><input type="checkbox">I agree to the terms and conditiond</td>
+                </tr>
+                
+                <tr>
+                    <td><input type="submit"></td>
+                    <td><input type="reset"></td>
+                </tr>
+                
+            </table>
+        </form>
+    </body>
+</html>
+
+
+<!-- Second Form -->
+<html>
+    <head>
+        <title>HTML FORMS 2</title>
+    </head>
+    <body>
+        <fieldset style="width: 300px">
+            <legend>Car Registration</legend>
+            
+        <form>
+            <table>
+                <tr>
+                    <td>Owner Name </td>
+                    <td><input type="text" name="ownername" placeholder="Owner Name"></td>
+                </tr>
+                
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="email" placeholder="Email"></td>
+                </tr>
+                
+                <tr>
+                    <td>Phone <br> number</td>
+                    <td><input type="text" name="number" placeholder="Phone number"></td>
+                </tr>
+                
+                <tr>
+                    <td>Country </td>
+                    <td>
+                        <select>
+                            <option value= "1">Sri Lanka</option>
+                            <option value= "2">US</option>
+                        </select>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Car Model</td>
+                    <td><input type="text" name="model"></td>
+                </tr>
+                
+                <tr>
+                    <td>Manufacture <br> Year</td>
+                    <td>
+                        <select>
+                            <option value= "">Select Year</option>
+                            <option value= "1">2020</option>
+                            <option value= "2">2019</option>
+                        </select>
+                </tr>
+                
+                <tr>
+                    <td>Transmission</td>
+                    <td><input type="radio" name="trns">Manual
+                        <input type="radio" name="trns">Auto
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Other</td>
+                    <td><textarea name="other" rows="4" columns="5"></textarea></td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2"><input type="checkbox">I agree to the terms and conditiond</td>
+                </tr>
+                
+                <tr>
+                    <td><input type="submit"></td>
+                    <td><input type="reset"></td>
+                </tr>
+                
+            </table>
+        </form>
+        </fieldset>
+    </body>
+</html>
