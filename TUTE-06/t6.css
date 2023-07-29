@@ -1,0 +1,53 @@
+.pic
+{
+    height: 550px;
+    width: 1449px;
+}
+
+h2
+{
+    color: blue;
+    text-align: center;
+}
+
+img
+{
+    height: 200px;
+    width: 352px;
+}
+
+td
+{
+    padding: 2%;
+}
+
+nav
+{
+    background-color: black;
+    padding: 1%;
+}
+
+.item
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navi 
+{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a 
+{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+a:hover 
+{
+  background-color: green;
+}
